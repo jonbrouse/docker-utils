@@ -1,5 +1,6 @@
-# docker-utilities
-Random Docker utilities and containers
+# Utilities Inside Docker Images
+
+alpine based images for container based access to the following tools.
 
 ## Curl
 
@@ -24,3 +25,4 @@ Random Docker utilities and containers
 # Related Links
 
 - http://wiki.alpinelinux.org/wiki/Main_Page
+- https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf
