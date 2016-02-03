@@ -1,6 +1,6 @@
 # Utilities Inside Docker Images
 
-alpine based images for container based access to the following tools.
+alpine based images for container based access to the following tools. Docker Hub hosted [automated build](https://hub.docker.com/r/jonbrouse/utils/).
 
 ## Curl
 
