@@ -2,7 +2,9 @@
 
 alpine based images for container based access to the following tools. Docker Hub hosted [automated build](https://hub.docker.com/r/jonbrouse/utils/).
 
-Curl
+## Utilities 
+
+### Curl
 
      docker run --rm jonbrouse/utils:curl -v https://secure.example.io
 
@@ -22,7 +24,7 @@ Netcat
      docker run --rm jonbrouse/utils:nc -v -n -z -w1 127.0.0.1 8080-9090
 
 
-# Related Links
+## Related Links
 
 - [Alpine Wiki](http://wiki.alpinelinux.org/wiki/Main_Page)
 - [Netcat Cheat Sheet](https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf)
