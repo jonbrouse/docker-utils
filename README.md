@@ -8,18 +8,18 @@ alpine based images for container based access to the following tools. Docker Hu
 
      docker run --rm jonbrouse/utils:curl -v https://secure.example.io
 
-DNS
+### DNS
 
      docker run --rm jonbrouse/utils:drill alpinelinux.org
      docker run --rm jonbrouse/utils:drill alpinelinux.org @8.8.8.8
      docker run --rm jonbrouse/utils:drill alpinelinux.org @8.8.8.8 -x 8.8.8.8 @208.67.222.222
 
-MySQL
+### MySQL
 
      docker run --rm jonbrouse/utils:mysql -h db.example.com -u username -ppassword
 
 
-Netcat
+### Netcat
 
      docker run --rm jonbrouse/utils:nc -v -n -z -w1 127.0.0.1 8080-9090
 
