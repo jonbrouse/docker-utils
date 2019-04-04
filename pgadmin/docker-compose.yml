@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  pgadmin:
+    hostname: pgadmin
+    container_name: pdadmin
+    image: "dpage/pgadmin4"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=jon@blackfynn.com
+      - PGADMIN_DEFAULT_PASSWORD=herpderp
+      - PGADMIN_LISTEN_PORT=80
+    ports:
+      - "80:80"
